@@ -1,0 +1,38 @@
+html {
+  background-color: #eeeeea !important;
+}
+.dankemo-blue {
+  border-radius: 4px;
+  background-color: #2e7ca2 !important;
+  color: #fff;
+  border: none;
+}
+.aside.aside .aside-tools {
+  background-color: #2e7ca2 !important;
+}
+aside.aside {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 40;
+  height: 100vh;
+  padding: 0;
+  box-shadow: none;
+  background: #fff !important;
+  border-right: 1px solid rgba(24, 28, 33, 0.06);
+}
+.menu-list a:hover {
+  border-radius: 0;
+  color: #fff;
+  background-color: #2e7ca2 !important;
+  display: block;
+  padding: 0.5rem 0;
+}
+.card-content {
+  background-color: white !important;
+}
+.is-title-bar {
+  border-bottom: 1px solid white !important;
+  background-color: white;
+}

@@ -1,0 +1,53 @@
+aside.aside .aside-tools {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #999999 !important;
+  color: #fff;
+  line-height: 3.25rem;
+  height: 3.25rem;
+  padding-left: 0.75rem;
+  flex: 1;
+}
+
+aside.aside {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 40;
+  height: 100vh;
+  padding: 0;
+  box-shadow: none;
+  background: #eeeeea !important;
+}
+
+.menu-list a.is-active {
+  background-color: #999999 !important;
+  color: #fff;
+}
+
+.menu-list a:hover {
+  border-radius: 0;
+  background-color: #999999 !important;
+  color: #727c8f;
+  display: block;
+  padding: 0.5rem 0;
+}
+
+.submenu {
+  background-color: #eeeeea;
+}
+
+.submenu li {
+  background-color: #eeeeea;
+}
+
+.submenu li span:hover {
+  color: #fff !important;
+}
+
+.submenu li:hover {
+  color: #fff !important;
+  background: #000;
+}
